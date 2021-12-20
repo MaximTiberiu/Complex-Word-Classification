@@ -20,13 +20,13 @@ A word which is considered to be complex has label 1, a word is considered to be
 
 The evaluation metric for this competition is balanced accuracy score. This is a proper metric to compute the accuracy in binary classification problems where the dataset is imbalanced. It is defined as the average of recall obtained on each class:
 
-**balanced_accuracy** = $\frac{sensitivity + specificity}{2}$
+**balanced_accuracy** = <sup>(sensitivity + specificity)</sup>&frasl;<sub>2</sub>
 
 where
 
-**sensitivity**  = **true positive rate** =  $\frac{TP}{TP + FN}$
+**sensitivity**  = **true positive rate** = <sup>TP</sup>&frasl;<sub>(TP + FN)</sub>
 
-**specificity** = **true negative rate** = $\frac{TN}{FP + TN}$
+**specificity** = **true negative rate** = <sup>TN</sup>&frasl;<sub>(FP + TN)</sub>
 
 ### Data Description
 The data comes from three sources: biblical text, biomedical articles and proceedings of the European Parliament. These sources were selected as they contain a natural mixture of common language and difficult to understand expressions, whilst each containing vastly different domain-specific vocabulary. 
